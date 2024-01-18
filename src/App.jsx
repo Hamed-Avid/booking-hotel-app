@@ -1,9 +1,10 @@
-
 import "./App.css";
+import Header from "./components/Header/Header";
 
-function App() {
-  return <h1>starter file</h1>
+export default function App() {
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 }
-
-export default App;
-
